@@ -1,4 +1,4 @@
-from abstract.rule import Rule
+from flask_server.core.abstract.rule import Rule
 
 
 class MultipleOfFiveRule(Rule):

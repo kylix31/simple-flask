@@ -1,5 +1,5 @@
 from typing import List
-from contracts.rule_protocol import RuleProtocol
+from flask_server.core.contracts.rule_protocol import RuleProtocol
 
 
 class NumberPrinter:

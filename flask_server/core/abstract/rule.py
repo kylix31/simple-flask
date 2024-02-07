@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from contracts.rule_protocol import RuleProtocol
+from flask_server.core.contracts.rule_protocol import RuleProtocol
 
 
 class Rule(ABC, RuleProtocol):
