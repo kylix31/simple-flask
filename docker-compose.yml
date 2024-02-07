@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_ENV: development
+      FLASK_APP: app.py  # Replace with your actual application entry point
+    volumes:
+      - .:/app
+      - poetry_cache:/root/.cache/pypoetry
+
+volumes:
+  poetry_cache:

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flask-server"
+version = "0.1.0"
+description = ""
+authors = ["Raul Luzetti <raul.chiodi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
