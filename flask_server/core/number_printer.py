@@ -1,4 +1,5 @@
 from typing import List
+
 from flask_server.core.contracts.rule_protocol import RuleProtocol
 
 

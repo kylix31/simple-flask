@@ -1,5 +1,7 @@
 from typing import Any
+
 from flask import jsonify, request
+
 from flask_server.models.number_model import NumberModel
 
 model = NumberModel()

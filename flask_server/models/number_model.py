@@ -1,5 +1,7 @@
 from flask_server.core.number_printer import NumberPrinter
-from flask_server.core.services import MultipleOfFiveRule, MultipleOfThreeRule, MultipleOfThreeAndFiveRule
+from flask_server.core.services import (MultipleOfFiveRule,
+                                        MultipleOfThreeAndFiveRule,
+                                        MultipleOfThreeRule)
 
 
 class NumberModel:
